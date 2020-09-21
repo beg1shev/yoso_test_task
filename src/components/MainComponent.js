@@ -14,8 +14,7 @@ class Main extends Component {
         super(props);
 
         this.state = {
-            loggedIn: false,
-            name: 'Danis'
+            loggedIn: false
         }
         this.eventUpdate = this.eventUpdate.bind(this);
     }
